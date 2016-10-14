@@ -1,0 +1,117 @@
+@charset 'utf-8';
+
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #ccc;
+}
+
+h1 {
+  margin: 0 0 8px 0;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 2.4em;
+}
+
+h2 {
+  margin: 0 0 16px 0;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 1.4em;
+  text-align: center;
+}
+
+a, a:link, a:visited  {
+  color: #000;
+  text-decoration: none;
+}
+
+a:active, a:hover {
+  text-decoration: underline;
+}
+
+header {
+  margin: 0;
+  padding: 1em;
+  color: #fff;
+  text-align: center;
+  background: #355c7d;
+  background: -moz-linear-gradient(45deg, #355c7d 0%, #6c5b7b 100%);
+  background: -webkit-linear-gradient(45deg, #355c7d 0%, #6c5b7b 100%);
+  background: linear-gradient(45deg, #355c7d 0%, #6c5b7b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#355c7d', endColorstr='#6c5b7b',GradientType=1 );
+  box-shadow: 0 3px 10px #333;
+}
+
+li {
+  padding: 4px;
+}
+
+label {
+  margin: 0 0 0 16px;
+}
+
+.wrapper {
+  margin: 16px 64px;
+}
+
+.address-box h2 {
+  margin: 0;
+  padding: 16px;
+}
+
+.content-box {
+  margin: 0 auto 16px auto;
+  display: flex;
+  max-width: 1200px;
+  justify-content: space-around;
+  background-color: rgba(255,255,255,0.7);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px #333;
+}
+
+.bgimg {
+  position:fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  z-index:-1;
+  opacity:1;
+}
+
+.greeting {
+  color:black;
+  text-shadow: 1px 1px 3px rgba(255,255,255, .5);
+  text-align: center;
+}
+
+.address-container {
+  width: 100%;
+  padding: 16px;
+}
+
+.wikipedia-container {
+  width: 25%;
+  padding:16px;
+}
+
+.nytimes-container {
+  width: 75%;
+  padding: 16px;
+}
+
+.article-list {
+  margin: 0;
+  padding: 0;
+}
+
+.article {
+  list-style-type: none;
+  padding:8px;
+  border-top: 1px dashed #aaa;
+}
+.article:first-child {
+  border-top:none;
+}

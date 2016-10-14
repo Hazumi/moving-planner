@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Moving Planner</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Amiko|Fjalla+One|Open+Sans" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <h1>Moving Planner</h1>
+    <form id="form-container" class="form-container">
+      <label for="street">Street: </label><input type="text" id="street" value="" placeholder="e.g. 1451 Broadway">
+      <label for="city">City: </label><input type="text" id="city" value="" placeholder="e.g. New York, NY">
+      <button id="submit-btn">Search</button>
+    </form>
+  </header>
+
+  <section class="wrapper">
+
+    <div class="content-box address-box">
+      <h2 id="greeting" class="greeting">Learn more about city and/or state by typing in an address above.</h2>
+    </div>
+
+    <div class="content-box">
+
+      <div class="wikipedia-container">
+        <h2 id="wikipedia-header">Wikipedia Links</h2>
+        <ul id="wikipedia-links"></ul>
+        <p class="placeholder">Type in an address above and find relevant Wikipedia articles here!</p>
+      </div>
+
+      <div class="nytimes-container">
+        <h2 id="nytimes-header">New York Times Articles</h2>
+        <ul id="nytimes-articles" class="article-list">
+        <p class="placeholder">What's going on in your new city? Enter an address and hit submit and the NY Times will tell you here!</p>
+        </ul>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <script src="js/libs/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
