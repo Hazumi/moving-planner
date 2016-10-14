@@ -14,6 +14,14 @@ h1 {
   letter-spacing: 1px;
 }
 
+#logo {
+  color: #fff;
+}
+
+#logo:hover {
+  text-decoration: none;
+}
+
 h2 {
   margin: 0 0 16px 0;
   font-family: 'Fjalla One', sans-serif;
@@ -64,7 +72,7 @@ li {
   max-width: 1200px;
   justify-content: space-around;
   background-color: rgba(255,255,255,0.7);
-  border: #222 solid 1px;
+  /*border: #222 solid 1px;*/
 }
 
 .street-box, .city-box, .submit-box {
