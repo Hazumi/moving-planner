@@ -34,11 +34,12 @@ header {
   padding: 1em;
   color: #fff;
   text-align: center;
-  background: #355c7d;
+  background-color: #222;
+  /*background: #355c7d;
   background: -moz-linear-gradient(45deg, #355c7d 0%, #6c5b7b 100%);
   background: -webkit-linear-gradient(45deg, #355c7d 0%, #6c5b7b 100%);
   background: linear-gradient(45deg, #355c7d 0%, #6c5b7b 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#355c7d', endColorstr='#6c5b7b',GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#355c7d', endColorstr='#6c5b7b',GradientType=1 );*/
   box-shadow: 0 3px 10px #333;
 }
 
