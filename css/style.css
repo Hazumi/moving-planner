@@ -46,9 +46,9 @@ li {
   padding: 4px;
 }
 
-label {
+/*label {
   margin: 0 0 0 16px;
-}
+}*/
 
 .wrapper {
   margin: 16px 64px;
@@ -62,6 +62,7 @@ label {
 .content-box {
   margin: 0 auto 16px auto;
   display: flex;
+  flex-wrap: wrap;
   max-width: 1200px;
   justify-content: space-around;
   background-color: rgba(255,255,255,0.7);
@@ -70,6 +71,15 @@ label {
   -ms-border-radius: 10px;
   border-radius: 10px;
   box-shadow: 0 3px 10px #333;
+}
+
+.street-box, .city-box, .submit-box {
+  display: inline-block;
+}
+
+.city-box, .submit-box {
+  display: inline-block;
+  margin: 0 0 0 16px;
 }
 
 .bgimg {
@@ -87,18 +97,13 @@ label {
   text-align: center;
 }
 
-.address-container {
-  width: 100%;
+.wikipedia-container {
+  width: 20%;
   padding: 16px;
 }
 
-.wikipedia-container {
-  width: 25%;
-  padding:16px;
-}
-
 .nytimes-container {
-  width: 75%;
+  width: 65%;
   padding: 16px;
 }
 
@@ -114,4 +119,40 @@ label {
 }
 .article:first-child {
   border-top:none;
+}
+
+@media (max-width: 975px) {
+  #wikipedia-links {
+    list-style-type: none;
+    padding: 0;
+  }
+}
+
+@media (max-width: 750px) {
+  .wikipedia-container {
+    width: 100%;
+    padding:16px;
+  }
+
+  .nytimes-container {
+    width: 100%;
+    padding: 16px;
+  }
+}
+
+@media (max-width: 580px) {
+  .street-box {
+    display: block;
+  }
+
+  .city-box {
+    display: block;
+    margin: 0;
+  }
+
+  .submit-box{
+    display: inline-block;
+    margin: 0;
+  }
+
 }
