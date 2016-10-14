@@ -41,7 +41,7 @@ header {
   background: -webkit-linear-gradient(45deg, #355c7d 0%, #6c5b7b 100%);
   background: linear-gradient(45deg, #355c7d 0%, #6c5b7b 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#355c7d', endColorstr='#6c5b7b',GradientType=1 );*/
-  box-shadow: 0 3px 10px #333;
+  /*box-shadow: 0 3px 10px #333;*/
 }
 
 li {
@@ -64,11 +64,7 @@ li {
   max-width: 1200px;
   justify-content: space-around;
   background-color: rgba(255,255,255,0.7);
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  border-radius: 10px;
-  box-shadow: 0 3px 10px #333;
+  border: #222 solid 1px;
 }
 
 .street-box, .city-box, .submit-box {
@@ -89,11 +85,9 @@ li {
   opacity:1;
 }
 
-.greeting {
-  color:black;
-  text-shadow: 1px 1px 3px rgba(255,255,255, .5);
+/*.greeting {
   text-align: center;
-}
+}*/
 
 .wikipedia-container {
   width: 20%;
