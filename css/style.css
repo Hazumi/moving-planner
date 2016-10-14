@@ -46,10 +46,6 @@ li {
   padding: 4px;
 }
 
-/*label {
-  margin: 0 0 0 16px;
-}*/
-
 .wrapper {
   margin: 16px 64px;
 }
@@ -154,5 +150,4 @@ li {
     display: inline-block;
     margin: 0;
   }
-
 }

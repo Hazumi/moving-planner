@@ -24,7 +24,7 @@ function loadData() {
   var $nytHeaderElem = $('#nytimes-header');
   var $nytElem = $('#nytimes-articles');
   var $greeting = $('#greeting');
-  var $placeholder = $('.placeholder')
+  var $placeholder = $('.placeholder');
 
   var $street = $('#street');
   var $city = $('#city');
@@ -71,7 +71,6 @@ function loadData() {
   }).fail(function() {
     $nytElem.append('Uh oh. There was a problem retrieving your news articles. Please try again later.');
   });
-
 
   //Wikipedia AJAX Request
   var wikiURL = "https://en.wikipedia.org/w/api.php?action=opensearch&search=" + city + "&format=json&callback=wikiCallback";
